@@ -1,6 +1,11 @@
 module.exports = {
+  parser: '@typescript-eslint/parser',
   extends: [
-    "@cybozu/eslint-config/presets/typescript",
-    "@cybozu/eslint-config/presets/node-typescript-prettier",
-  ]
+    'airbnb-base',
+    'airbnb-typescript/base',
+    'plugin:@typescript-eslint/recommended',
+  ],
+  parserOptions: {
+    project: './tsconfig.json',
+  },
 };
