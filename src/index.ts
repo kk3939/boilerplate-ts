@@ -1,3 +1,2 @@
-const hello = (name: string): string => `Hello, ${name}!`;
-
-console.log(hello('はこんにちは'));
+const text = "Hello, world";
+console.log(text);
